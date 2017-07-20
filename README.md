@@ -54,15 +54,5 @@
 
     tail file.text - Full content of the file
 
-# Normalise the following example database table, highlight all the keys, and describe all the relationships:
-
-  Customer         Addresss                  City    Post_Code  Invoice         Date  Item     Description           Qty  Price   Total    Order_Total
-  ---------------  ------------------------  ------  ---------  -------  -----------  -------  --------------------  ---  ------  -------  -----------
-  Fighters of Foo  44, Wardour Street, Soho  London  W1A 4AA        124  16-Feb-2010  Widget   8x2 Spangly Widget      2   40.00    80.00       280.00
-  Fighters of Foo  44, Wardour Street, Soho  London  W1A 4AA        124  16-Feb-2010  Gadgets  Plain Gadget, 4 pack    1  100.00   100.00       280.00
-  Fighters of Foo  44, Wardour Street, Soho  London  W1A 4AA        124  16-Feb-2010  Radget   Red Gadget, Glossy     10   10.00   100.00       280.00
-  Foxes of Fleet   The Sanctuary, High St    Exeter  EX2 3BZ        199  21-Feb-2010  Radget   Red Gadget, Glossy     40   10.00   400.00      3000.00
-  Foxes of Fleet   The Sanctuary, High St    Exeter  EX2 3BZ        199  21-Feb-2010  Gadget   Plain Gadget, 4 pack   10  100.00  1000.00      3000.00
-  Foxes of Fleet   The Sanctuary, High St    Exeter  EX2 3BZ        199  21-Feb-2010  Widget   8x2 Spangly Widget     40   40.00  1600.00      3000.00
-
-  This DB question is subjective question, no coding required
+# What is de-normalisation in Database, and when & why would you use it ?
+  This is subjective question, no coding required
