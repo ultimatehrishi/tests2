@@ -59,3 +59,4 @@
    It is used to :
    1. Improve query performance
    2. Maintaing History
+ It can be used when the database is normalized but at the time of querying multiple joins have to be performed over the many seperate tables because they are normalized as this causes computationally heavy queries . Having denormalized databases would at the cost of some redundancy help in faster query performances.
