@@ -11,13 +11,22 @@ def fab(length):
         return 1
     elif length ==0:
         return 0
-    fn_1 = fab(length-1)
-    fn_2 = fab(length-2)
+
+
+
+
     if length-1 not in opdict:
+        fn_1 = fab(length - 1)
         opdict[length-1]=fn_1
+    else:
+        fn_1 = opdict[length-1]
 
     if length-2 not in opdict:
-         opdict[length-2]=fn_1
+        fn_2 = fab(length - 2)
+        opdict[length-2]=fn_2
+    else:
+        fn_2=opdict[length-2]
+
 
     val =  fn_1+fn_2
     return val
