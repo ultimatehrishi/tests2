@@ -55,4 +55,7 @@
     tail.py file.text - Full content of the file
 
 # What is de-normalisation in Database, and when & why would you use it ?
-  This is subjective question, no coding required
+   Denormalization in Database is a performance improvement strategy which involves adding redundant data to a normalized database. This helps in avoiding problems associated with query performance.
+   It is used to :
+   1. Improve query performance
+   2. Maintaing History
