@@ -42,17 +42,17 @@
     Example-output
     [1,1,2,3,5,8]
 
-# Write a program "tail" which works for these scenarios
+# Write a program file "tail.py" which works for these scenarios
 
-    tail -5 file1.txt  - should give the last 5 lines of the file file1.txt
+    tail.py -5 file1.txt  - should give the last 5 lines of the file file1.txt
 
-    tail -3 file3.txt  - should give last 3 lines of file file3.txt
+    tail.py -3 file3.txt  - should give last 3 lines of file file3.txt
 
-    tail  3 file.txt  - should give first 3 lines of file.txt
+    tail.py 3 file.txt  - should give first 3 lines of file.txt
 
-    tail -10 file1.txt -20 file2.txt - should give last 10 lines of file1.txt and last 20 lines of file file2.txt
+    tail.py -10 file1.txt -20 file2.txt - should give last 10 lines of file1.txt and last 20 lines of file file2.txt
 
-    tail file.text - Full content of the file
+    tail.py file.text - Full content of the file
 
 # What is de-normalisation in Database, and when & why would you use it ?
   This is subjective question, no coding required
